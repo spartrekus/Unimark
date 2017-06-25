@@ -11,7 +11,7 @@ Universal Markup language for FreeBSD and Linux Operating Systems, and maybe mor
 * Unimark is just about freedom !! 
 * Unimark was born to give full freedom to writers, programmers, students, and users. 
 * Unimark will deliver you from using bloated systems !!
-* Unimark is very light.
+* Unimark is very light and very powerful.
 
 ## Description
 Unimark can be compiled on any platforms having a GNU GCC compiler. 
