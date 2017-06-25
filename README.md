@@ -20,9 +20,11 @@ be displayed easily and being human readable on any machine/platform.
 //////////////////////////////////
 ~~~~
 
+## Installation
+You may run 'make' to compile it and you can try it under FreeBSD with 'make test' for a TeX format.
 
 
-#The Universal Syntax 
+## The Universal Syntax 
 ~~~~
 ////////////////////////////////
 ////////////////////////////////
@@ -48,4 +50,5 @@ be displayed easily and being human readable on any machine/platform.
 !fig{myfigure.jpg} 
 ~~~~
 
-
+## Outlook
+It will be too destined to work for HTML files in the future.
