@@ -1,4 +1,4 @@
 
 
 all: 
-	   gcc -o unimark unimark.c 
+	   gcc -o bin/unimark src/unimark.c 
