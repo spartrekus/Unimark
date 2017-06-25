@@ -3,6 +3,7 @@
 \documentclass[11pt]{report}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
 % for unimark 
 \newcommand{\unibeginitemize}{\begin{itemize}}
@@ -11,8 +12,16 @@
 \newcommand{\unipara}[1]{- #1\\}
 \newcommand{\unihead}[1]{#1}
 \newcommand{\unibullet}[1]{- #1\\}
-\newcommand{\unifig}[1]{}
 \newcommand{\uniend}{\end{document}}
+\newcommand{\unifig}[1]{\includegraphics[width=0.9\textwidth,keepaspectratio]{#1}\\}
+\newcommand{\unizfig}[3]{
+\begin{figure}[!htbp]
+\includegraphics[keepaspectratio,width=1.000\textwidth]{#1}
+\caption{#2}
+\label{#3}
+\end{figure}
+}
+
 \begin{document}
 
 
