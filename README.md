@@ -1,11 +1,17 @@
 # Unimark
+
+## Introduction
 Universal Markup language for FreeBSD and Linux Operating Systems, and maybe more. 
 
+## Origin
+* Unimark is just about freedom !! 
+* Unimark was born to give full freedom to writers, programmers, students, and users. 
+* Unimark will deliver you of bloated systems !!
+
+## Description
 Unimark can be compiled on any platforms having a GNU GCC compiler. 
 Unimark can give you freedom using HTML, TeX, LaTeX,... since it is tiny and 
 it has few simple basic, universal, functionalities.
-
-
 
 Unimark can be easily customized to work on more output styles, not only TeX, but others i.e. html...
 
