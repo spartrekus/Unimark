@@ -5,6 +5,6 @@ all:
 	   
 	
 test: 
-	     less unitest.mrk ; unimark unitest.mrk unitest.tex   ; pdflatex --shell-escape unitest.tex  ; mupdf unitest.pdf
+	     less unitest.mrk ; ./bin/unimark unitest.mrk unitest.tex   ; pdflatex --shell-escape unitest.tex  ; mupdf unitest.pdf
 	   
 	   
