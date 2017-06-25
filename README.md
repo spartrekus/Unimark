@@ -62,5 +62,5 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 It will be too destined to work for HTML files in the future.
 
 
-* Unimark will never let you will alone with your format, since you can re-compile it on any platforms with GNU GCC*
-* Unimark can be easily ported to work on a website using PHP or JAVA *
+* Unimark will never let you will alone with your format, since you can re-compile it on any platforms with GNU GCC 
+* Unimark can be easily ported to work on a website using PHP or JAVA 
