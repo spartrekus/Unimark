@@ -22,12 +22,18 @@
 -  this is my item, orange
 -  this is my item, grape
 
-!fig{myfigure.png} 
-!fig{myfigure.png} 
-!fig{myfigure.png} 
+
+!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
+!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
+!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
 
 // this below will input a file (raw format) 
 !input{test.tex}
+
+{\bfseries Bye!} 
+
+!fig{myfigure.png} 
+
 
 !end
 
