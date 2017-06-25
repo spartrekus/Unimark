@@ -1,0 +1,18 @@
+
+// usage: unimark unitest-example2.mrk unitest-example2.tex
+// then you can run: pdflatex unitest-example2.tex
+// you may notice that you can use LaTeX freely. 
+// If you start the line with '!', you will have few functions 
+// of Unimark, which will ease your life. 
+
+!input{header.tex}
+!chap My Chapter
+
+!sec this is a new section
+it allows to write 
+normally in latex.
+  $ a = b $
+
+!end
+
+
