@@ -17,3 +17,33 @@ Universal Markup language for FreeBSD and Linux Operating Systems, and maybe mor
 //////////////////////////////////
 //////////////////////////////////
 ~~~~
+
+
+
+#The Universal Syntax 
+~~~~
+////////////////////////////////
+////////////////////////////////
+// based on ndirview 
+////////////////////////////////
+////////////////////////////////
+
+
+!chap my chapter            
+!sec dlkdsafjlkasjfd jkldasjfklajdsf hello         
+!subsec dlkdsafjlkasjfd jkldasjfklajdsf hello  
+!subsubsec dlkdsafjlkasjfd jkldasjfklajdsf hello     
+!li my item
+!bu my bullet numbered
+!p my paragraph 
+
+> Part itemize
+- bladfk jlkadsf  dslkfj sadljf     hello          
+- bla bla jcldskajkfl jfdaslj l  hello            
+
+!fig{myfigure.jpg} 
+!fig{myfigure.jpg} 
+!fig{myfigure.jpg} 
+~~~~
+
+
