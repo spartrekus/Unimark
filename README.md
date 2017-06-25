@@ -1,6 +1,8 @@
 # Unimark
 Universal Markup language for FreeBSD and Linux Operating Systems, and maybe more. 
 
+The Markup syntax of Unimark should be destined first to be readable and it shall
+be displayed easily and being human readable on any machine/platform. 
 
 ~~~~
 //////////////////////////////////
