@@ -5,6 +5,8 @@ Unimark can be compiled on any platforms having a GNU GCC compiler.
 Unimark can give you freedom using HTML, TeX, LaTeX,... since it is tiny and 
 it has few simple basic, universal, functionalities.
 
+
+
 Unimark can be easily customized to work on more output styles, not only TeX, but others i.e. html...
 
 The Markup syntax of Unimark should be destined first to be readable and it shall
@@ -58,3 +60,6 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 
 ## Outlook
 It will be too destined to work for HTML files in the future.
+
+
+**Unimark will never let you will alone with your format, since you can re-compile it on any platform with GNU GCC**
