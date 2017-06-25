@@ -22,9 +22,9 @@
 -  this is my item, orange
 -  this is my item, grape
 
-!fig{myfigure.jpg} 
-!fig{myfigure.jpg} 
-!fig{myfigure.jpg} 
+!fig{myfigure.png} 
+!fig{myfigure.png} 
+!fig{myfigure.png} 
 
 // this below will input a file (raw format) 
 !input{test.tex}
