@@ -44,28 +44,39 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 
 ## The Universal Syntax, Compilation and Portability 
 ~~~~
-////////////////////////////////
-////////////////////////////////
-// based on ndirview 
-////////////////////////////////
-////////////////////////////////
 
+// this below will input a file (raw format) 
+!input{header.tex}
+
+////////////////////////////////
+////////////////////////////////
+// this is a comment 
+////////////////////////////////
+////////////////////////////////
 
 !chap my chapter            
-!sec dlkdsafjlkasjfd jkldasjfklajdsf hello         
-!subsec dlkdsafjlkasjfd jkldasjfklajdsf hello  
-!subsubsec dlkdsafjlkasjfd jkldasjfklajdsf hello     
-!li my item
-!bu my bullet numbered
-!p my paragraph 
+!sec this is a section ending
+!subsec this is a subsection ending
+!subsubsec this is a subsubsection ending
+!li this is my item
+!bu this is my bullet non numbered
+!p this is my paragraph 
 
-> Part itemize
-- bladfk jlkadsf  dslkfj sadljf     hello          
-- bla bla jcldskajkfl jfdaslj l  hello            
+> Here you can have an example of itemize use (itemize)
+-  this is my item, apple
+-  this is my item, pear
+-  this is my item, orange
+-  this is my item, grape
 
 !fig{myfigure.jpg} 
 !fig{myfigure.jpg} 
 !fig{myfigure.jpg} 
+
+// this below will input a file (raw format) 
+// if the file is not found, Unimark will skip the input line.
+!input{test.tex}
+
+!end
 ~~~~
 
 ## Outlook
