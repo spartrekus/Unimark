@@ -2,7 +2,7 @@
 Universal Markup language for FreeBSD and Linux Operating Systems, and maybe more. 
 
 
-
+~~~~
 //////////////////////////////////
 //////////////////////////////////
 // UNIMARK IS A POWERFUL MARKUP //
@@ -16,4 +16,4 @@ Universal Markup language for FreeBSD and Linux Operating Systems, and maybe mor
 // Atari, CPC, ... having C     //
 //////////////////////////////////
 //////////////////////////////////
-
+~~~~
