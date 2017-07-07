@@ -1,7 +1,7 @@
 
 
 all: 
-	   gcc -o bin/unimark src/unimark.c 
+	   gcc -o bin/unimark  src/unimark.c 
 	   
 	
 test: 
