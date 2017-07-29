@@ -1,40 +1,174 @@
 
-// this below will input a file (raw format) 
-!input{header.tex}
-
-////////////////////////////////
-////////////////////////////////
-// this is a comment 
-////////////////////////////////
-////////////////////////////////
-
-!chap my chapter            
-!sec this is a section ending
-!subsec this is a subsection ending
-!subsubsec this is a subsubsection ending
-!li this is my item
-!bu this is my bullet non numbered
-!p this is my paragraph 
-
-> Here you can have an example of itemize use (itemize)
--  this is my item, apple
--  this is my item, pear
--  this is my item, orange
--  this is my item, grape
+=============================
+| UniMark (*.mrk) Document |
+=============================
+!title - Unimark Markup Language - 
+!author GNU (FreeBSD/Linux Community/Free)
 
 
-!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
-!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
-!zfig{myfigure.png} {Icon of Gnu Free Software} {fig:23423425}
+============
+!Chapter One
+============
+With !chapter or !Chapter you can start a new chapter
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-// this below will input a file (raw format) 
-!input{test.tex}
+==============
+= Section One
+============== (<- With many '=', those are seen as non printable)
+Unimark is a ultra portable 
+markup language 
+that can be compile on about 500 machines (mips, arm, i386,...).
+It requires clang, or gcc, or other CC compiler. 
 
-{\bfseries Bye!} 
+It is extremely reliable and allows to be a full replacement of ASCIIDOC for books, 
+latex documents,
+but also 
+for making simple HTML documents.
 
-!fig{myfigure.png} 
+The choice of '!' is not trivial. '!' allows to be read by any machines.
+'=' allows to be simple and not too much complicated.
+It follows slightly the 
+syntax of TeX. 
+You can use double space, line break, and your paragraph will 
+not be affected. 
+Nice and easy to use.
 
 
+
+
+
+== SubSection One
+------------------ (<-- this is not printed)
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+lorem lorem 
+lorem lorem 
+lorem lorem 
+
+
+
+== SubSection Two
+------------------ (<- those are seen as non printable)
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+lorem lorem 
+lorem lorem 
+lorem lorem 
+
+
+== SubSection Three
+lorem lorem 
+lorem lorem 
+lorem lorem 
+
+
+=== SubSubsection
+but you can also use the following:
+
+
+
+
+===========================================================================
+//
+/// but you can also write your section, subsection, ... with a simple beginning '!' separated with a space (just like a command). 
+//
+!clr
+!chap my chapter 
+!sec This is my section
+!subsec this is my subsection
+!subsubsec this is my subsubsection 
+
+!li my item
+!bu my bullet numbered
+!p my paragraph 
+
+
+
+/// this is an very basic list
+>> Main List
+* item 2
+* item 3
+
+!clr //new page
+>> Main List
+[#] item numbered 1 
+[#] item numbered 2 
+[#] item numbered 3 
+[#] item numbered 4 
+
+
+
+
+
+
+== New Subsection
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# comment in the text
+# comment in the text
+
+/*
+this area is non-printed section/area of text.
+If you would like to write some comments or hide an area. 
+*/
+
+
+
+
+== Subsection The Lorem Text with Comment
+----------------------------------------- // <- not printed!
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+# comment in the text - for Reviewers, it allows to add some text and the author can see the comments embedded into it 
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+# please change or reformulate this line !! ///// do not forget to discuss with point with the author
+diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# comment in the text (this will be in yellow)
+
+!fig{myfigure.jpg} 
+!fig{dir1/myfigure.jpg} {legende below the fig or text }
+!fig{figs/myfigure.jpg} 
+!fig{dir2/logo.png} {legende below the fig or text }
+!fig{myfigure.jpg} /// this also a comment that is added to the current line
+// !fig important and it can be easily used for macros and more.
+
+!url{www.linux.org} {Link, click me to go to url}
+!background{mypagebackground.jpg}
+
+| Equation: $ y = x + 2 $ ///// you can also use equations (latex of course!)
+
+
+=======================================
+| A great tool for reviewers:
+| { [ ] [] ° # 
+| this allow to write in plain text and convert it to TeX, < > { ] \}] { } will be seen normal like into a notepad.
+| this allow to write in plain text and convert it to TeX, < > { ] \}] { } will be seen normal like into a notepad.
+| this allow to write in plain text and convert it to TeX, < > { ] \}] { } will be seen normal like into a notepad.
+| this allow to write in plain text and convert it to TeX, < > { ] \}] { } will be seen normal like into a notepad.
+| 
+======================================= <- (not printed!) // not seen  
+
+// if you would like to use TeX and include headers, you may use following functions:
+#include{unimark.mrk}
+!begin
+You can write like you would with TeX/LaTeX/XeTeX/... 
 !end
 
+/// this is non-printable comment
+///// this line below get a jpg and allows to check if fexist, fetch and use it. 
+////// this is extremely useful for authors that use github and directly post their figures into the hub.
+!wget{www.linux.org/about.mrk}{chaps/about.mrk}
+!input{chaps/about.mrk}
+!webfig{www.linux.org/linux.jpg}{figs/linux.jpg}
 
+
+
+
+////////////////////////////////
+
+/// Let's use also some other Unimark files.
+!input{chapters/chap1.mrk}
+!input{chapters/chap2.mrk}
+!input{chapters/chap3.mrk}
+// another example with ~ for $HOME/
+!input{~/phd/chapters/chap4.mrk}
+// and so on...
