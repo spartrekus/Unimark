@@ -23,12 +23,15 @@
 - Hello FreeBSD
 - Hello NetBSD
 
+
 !clr
 = Introduction
 > Part itemize
 - Hello world 1 
 - Hello Linux 2 
 
+
+/*
 !clr
 = Results
 > Figure
@@ -38,15 +41,18 @@
 = Another fig
 > Second figure
 !fig{figs/graph2.png} 
+*/
 
-!clr
-= Two figures
-!figab{figs/graph2.png} {figs/graph2.png} 
+
+
 
 !clr
 = A figure with size reduction
 > Figure
-!fig[.5]{figs/graph2.png} 
+- test
+%!fig[1]{figs/graph2.png} 
+
+
 
 
 !enddoc
