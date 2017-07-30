@@ -5,14 +5,16 @@
 // If you start the line with '!', you will have few functions 
 // of Unimark, which will ease your life. 
 
-!input{header.tex}
-!chap My Chapter
+#include{unimark.mrk}
 
-!sec this is a new section
+!begin
+!chapter My Chapter
+
+!section this is a new section
 it allows to write 
 normally in latex.
   $ a = b $
 
-!end
+!enddoc
 
 
