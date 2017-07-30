@@ -10,8 +10,8 @@
 /// Slides can also be made easily.
 /// You can use an header for beautiful presentations.
 ////////////////////////////////
-!clr // make here a new slide
-!sec Content
+!clr       // make here a new slide
+= Content
 > Part itemize // just type easily 
 - Hello world 1 
 - Hello Linux 2 
@@ -20,27 +20,32 @@
 - Hello NetBSD
 
 !clr
-!sec Introduction
+= Introduction
 > Part itemize
 - Hello world 1 
 - Hello Linux 2 
 
 !clr
-!sec Results
+= Results
+> Figure
 !fig{figs/graph1.png} {Graphic showing a Penguin} {fig:324234} {Note/ref.}
 
 !clr
->> Second figure
+= Another fig
+> Second figure
 !fig{figs/graph2.png} 
 
 !clr
->> Two figures
-!fig2{figs/graph2.png} {figs/graph2.png} 
+= Two figures
+!figab{figs/graph2.png} {figs/graph2.png} 
 
 !clr
->> A figure with size reduction
+= A figure with size reduction
+> Figure
 !fig[.5]{figs/graph2.png} 
 
 
-!end
+!enddoc
+
+
 
