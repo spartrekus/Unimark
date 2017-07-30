@@ -1,6 +1,10 @@
-#include{slides.mrk}
-!begin
 
+#include{beamer.mrk}
+
+!begin
+!beamer
+
+!xmsg{hello}
 
 ////////////////////////////////
 ////////////////////////////////
