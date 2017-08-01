@@ -5,6 +5,8 @@
 # Unimark
 
 ## Introduction
+It's all about freedom and GNU software. 
+Unimark has been developed with the purpose to give freedom to users for word processing and web design.
 Universal Markup language for FreeBSD and Linux Operating Systems, and maybe more. 
 
 ## Origin
@@ -61,9 +63,6 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 !sec this is a section ending
 !subsec this is a subsection ending
 !subsubsec this is a subsubsection ending
-!li this is my item
-!bu this is my bullet non numbered
-!p this is my paragraph 
 
 > Here you can have an example of itemize use (itemize)
 -  this is my item, apple
@@ -74,6 +73,10 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 !fig{myfigure.jpg} 
 !fig{myfigure.jpg} 
 !fig{myfigure.jpg} 
+
+!xmsg{hello world, did you see this?}
+!mkdir{logo.png}{1}
+!wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}
 
 // this below will input a file (raw format) 
 // if the file is not found, Unimark will skip the input line.
