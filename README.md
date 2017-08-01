@@ -74,7 +74,7 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 !set advanced    /* this allows to give  more functionalities if it is included during compilation time (see options).*/
 !xmsg{hello world, did you see this?}  /* nice popups for co-workers */
 !mkdir{figs}{1}  /* create a directory */
-!wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}    /* nice popups for co-workers */
+!wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}    /* possible function for co-workers */
 !clr
 !fig{figs/logo.png}{this is a logo}  /* show pic. nice function for co-workers since it is fetched from server (see options).*/
 // it is useful to fetch directly the images from the web.
