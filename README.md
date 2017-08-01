@@ -9,10 +9,11 @@ It's all about freedom and GNU software.
 Unimark has been developed with the purpose to give freedom to users for word processing and web design.
 Universal Markup language for FreeBSD and Linux Operating Systems, and maybe more. 
 
-## Origin
+## Aims
 * Unimark is just about freedom !! 
 * Unimark was born to give full freedom to writers, programmers, students, and users. 
 * Unimark will deliver you from using bloated systems !!
+* Unimark can be easily compiled using CC compiler on most operating systems.
 
 ## Description
 Unimark can be compiled on any platforms having a GNU GCC compiler. 
