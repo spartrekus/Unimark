@@ -72,11 +72,12 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 -  this is my item, orange
 -  this is my item, grape
 
-!xmsg{hello world, did you see this?}
-!mkdir{figs}{1}
-!wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}
+!set advanced    /* this allows to give  more functionalities if it is included during compilation time (see options).*/
+!xmsg{hello world, did you see this?}  /* nice popups for co-workers */
+!mkdir{figs}{1}  /* create a directory */
+!wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}    /* nice popups for co-workers */
 !clr
-!fig{figs/logo.png}{this is a logo}
+!fig{figs/logo.png}{this is a logo}  /* show pic. nice function for co-workers since it is fetched from server (see options).*/
 // it is useful to fetch directly the images from the web.
 // there are less than 5 functions, which are allowed to make system call.
 
@@ -90,7 +91,7 @@ Vivamus sit amet efficitur augue, accumsan ornare libero. Morbi egestas dignissi
 
 // this below will input a file (raw format) 
 // if the file is not found, Unimark will skip the input line.
-!clr      /*comment*/
+!clr      /*comment: new page here*/
 !input{test.tex}
 
 !end
