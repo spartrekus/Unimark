@@ -83,7 +83,7 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 
 // this below will input a file (raw format) 
 // if the file is not found, Unimark will skip the input line.
-!clr   //new page
+!clr      /*comment*/
 !input{test.tex}
 
 !end
