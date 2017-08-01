@@ -52,6 +52,7 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 ~~~~
 
 // this below will input a file (raw format) 
+!set advanced
 !input{header.tex}
 
 ////////////////////////////////
@@ -71,15 +72,21 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 -  this is my item, orange
 -  this is my item, grape
 
-!fig{myfigure.jpg} 
-!fig{myfigure.jpg} 
-!fig{myfigure.jpg} 
-
 !xmsg{hello world, did you see this?}
 !mkdir{figs}{1}
 !wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}
 !clr
 !fig{figs/logo.png}{this is a logo}
+// it is useful to fetch directly the images from the web.
+// there are less than 5 functions, which are allowed to make system call.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris enim dolor, sagittis sit amet purus ut, cursus dignissim lacus. Etiam sit amet sodales mi, in aliquet diam. Suspendisse volutpat sit amet dui at condimentum. Cras iaculis erat sit amet dapibus ultrices. Quisque sed lectus risus. Nullam a sem nec turpis euismod porta. Vestibulum leo ex, lacinia volutpat augue a, egestas euismod tellus. Sed ex nisl, dignissim ac sagittis non, elementum id elit. Phasellus vel iaculis lorem, quis varius urna. Suspendisse vitae interdum velit. Integer nec scelerisque eros, nec euismod diam. Aliquam volutpat magna eget velit malesuada vestibulum. Donec a enim mi. Cras vestibulum erat leo, et tincidunt ex aliquet a.
+!fig{myfigure.jpg} 
+
+Vivamus sit amet efficitur augue, accumsan ornare libero. Morbi egestas dignissim mi, sed lobortis sapien. Etiam in consectetur leo, in porta neque. Proin a massa lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam non nibh felis. Integer cursus sit amet risus non lobortis. Sed cursus massa non lorem rutrum ullamcorper. Suspendisse et nibh massa.
+!fig{myfigure.jpg}
+
+
 
 // this below will input a file (raw format) 
 // if the file is not found, Unimark will skip the input line.
