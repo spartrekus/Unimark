@@ -52,7 +52,6 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 ~~~~
 
 // this below will input a file (raw format) 
-!set advanced
 !input{header.tex}
 
 ////////////////////////////////
