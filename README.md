@@ -76,11 +76,14 @@ You may run 'make' to compile it and you can try it under FreeBSD with 'make tes
 !fig{myfigure.jpg} 
 
 !xmsg{hello world, did you see this?}
-!mkdir{logo.png}{1}
+!mkdir{figs}{1}
 !wget{https://www.gnu.org/graphics/gerwinski-gnu-head.png}{figs/logo.png}{1}
+!clr
+!fig{figs/logo.png}{this is a logo}
 
 // this below will input a file (raw format) 
 // if the file is not found, Unimark will skip the input line.
+!clr   //new page
 !input{test.tex}
 
 !end
