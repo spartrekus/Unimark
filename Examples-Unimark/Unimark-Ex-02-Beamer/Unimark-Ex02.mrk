@@ -1,0 +1,24 @@
+
+!input{beamer.bas}
+!beamer
+!begin
+
+!clr
+= Content
+> Level1
+- level2
+> Level1
+- level2
+- level2
+- level2
+
+
+!clr
+= Introduction
+> Level1
+- level2
+
+
+!enddoc
+
+
