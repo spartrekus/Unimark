@@ -1,0 +1,11 @@
+
+!input{unimark.bas}
+!input{unimark.fun}
+!advanced
+!begin
+!section Figure
+This is a figure, which is fetched from the web.
+!wget{https://www.gnu.org/graphics/logo-fsf.org-tiny.png}{logo.png}
+!fig{logo.png}
+!enddoc
+
