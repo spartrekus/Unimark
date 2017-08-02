@@ -1,0 +1,21 @@
+
+" VIMRC CODE 
+
+""""""""""""""""""""""""""""""""""""""""
+"" unimarklnc is a C based wrapper to 
+"" compile with unimark and to 
+"" view the generated PDF with mupdf!!
+"""""""""""""""""""""""""""""""""""""""""
+function! Texunimark()
+   let curr_dir = expand('%:h')
+   if curr_dir == ''
+       let curr_dir = '.'
+   endif
+   echo curr_dir
+   let curr_file = expand("%")
+   let cmd = '  unimarklnc '
+   silent execute '!' . cmd . ' ' . '"' . curr_file  . '"' . '  ' 
+   :redraw!
+endfunction
+map mk :call Texunimark()<CR>
+
