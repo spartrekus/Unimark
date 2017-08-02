@@ -1,0 +1,13 @@
+
+%% basic header without Unifunctions
+\documentclass[11pt]{article}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{grffile}
+\setlength\parindent{0pt} 
+\usepackage[parfill]{parskip}
+\sloppy
+\usepackage[none]{hyphenat}
+\usepackage{microtype}
+

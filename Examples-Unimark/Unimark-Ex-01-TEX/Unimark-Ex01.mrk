@@ -1,0 +1,26 @@
+
+
+!input{unimark.mrk}
+!input{unimark.fun}
+!begin
+!title Unimark Example Ex.\#01 
+!author Unimark V.0.4 Beta
+
+////////////////////////////////
+////////////////////////////////
+// this is a comment 
+////////////////////////////////
+////////////////////////////////
+
+!sec this is a section ending
+!subsec this is a subsection ending
+!subsubsec this is a subsubsection ending
+Here you can have an example of itemize use (itemize):\\
+* this is my item, apple
+* this is my item, pear
+* this is my item, orange
+* this is my item, grape
+
+!enddoc
+
+
